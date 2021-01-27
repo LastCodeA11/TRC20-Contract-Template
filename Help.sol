@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("GoldKey", "Gkey", 18) {
-        _mint(msg.sender, 4000000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("Help", "Help", 6) {
+        _mint(msg.sender, 20000000 * (10 ** uint256(decimals())));
     }
 }
